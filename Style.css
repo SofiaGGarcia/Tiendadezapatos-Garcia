@@ -126,6 +126,15 @@ header {
     /*--spacing-small: 2rem, sobreecribe el 0 del margin anterior, se separa de la linea roja  */
 }
 
+.container__contacto{
+    background-image: linear-gradient(
+        360deg,
+        /* rgba(rgb(129, 128, 128))angulo de 360 grados */
+        rgba(19, 6, 6, 0.901) 0%,
+        #b6afaf );
+    background-attachment: fixed; 
+}
+
 /*Info*/
 
 .info {
@@ -211,7 +220,7 @@ header {
 
 .form-register .botons {
     width: 100%;
-    background: #1f53c5;
+    background: #771111;
     border: none;
     padding: 12px;
     color: white;
@@ -234,30 +243,40 @@ header {
     /* pseudoclase nth-of-type hermano 1 */
     grid-column: 2 / 5;
     /* que ocupe las columnas de la 1 a la 7 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
 }
 
 .gallery__img:nth-of-type(2) {
     /* pseudoclase nth-of-type hermano 2 */
     grid-column: 5 / 8;
     /* que ocupe las columnas de la 7 a la 13 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
 }
 
 .gallery__img:nth-of-type(3) {
     /* pseudoclase nth-of-type hermano 6 */
     grid-column: 8 / 11;
     /* que ocupe las columnas de la 1 a la 9 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
 }
 
 .gallery__img:nth-of-type(4) {
     /* pseudoclase nth-of-type hermano 3 */
     grid-column: 2 / 5;
     /* que ocupe las columnas de la 1 a la 5 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
 }
 
 .gallery__img:nth-of-type(5) {
     /* pseudoclase nth-of-type hermano 4 */
     grid-column: 5 / 8;
     /* que ocupe las columnas de la 5 a la 9 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
 }
 
 .gallery__img:nth-of-type(6) {
@@ -266,6 +285,12 @@ header {
     /* que ocupe las columnas de la 9 a la 14 */
     grid-row: 2 / 4;
     /* que ocupe las fila de la 2 a la 4 */
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+}
+
+.gallery__img:hover {
+    opacity: 1;
 }
 
 
