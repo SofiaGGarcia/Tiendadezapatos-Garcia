@@ -1,0 +1,52 @@
+/* Header */
+header {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.header__title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.header__txt {
+    display: block;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+/* Barra de navegación */
+
+.menu {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    list-style: none;
+    gap: 50px
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    border: 2px solid white;
+    padding: 1.2rem;
+    transition: all 1s;
+}
+
+.menu__link--negro {
+    color: white;
+    background-color: black;
+}
+
+.menu__link:hover {
+    color: white;
+    background-color: black;
+}

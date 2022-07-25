@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* Colors */
+/* Spacings */
+/* Font-family */
+/* Font-Sizes */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+ul {
+  /* listas */
+  list-style-type: none; }
+
+a {
+  /* links */
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #2B2B2B; }
+
+/* Header */
+header {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 5px; }
+
+.header__title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.header__txt {
+  display: block;
+  font-size: 26px;
+  margin-top: 10px; }
+
+/* Barra de navegación */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  list-style: none;
+  gap: 50px; }
+
+.menu__link {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  border: 2px solid white;
+  padding: 1.2rem;
+  transition: all 1s; }
+
+.menu__link--negro {
+  color: white;
+  background-color: black; }
+
+.menu__link:hover {
+  color: white;
+  background-color: black; }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2rem;
+  background-color: black; }
+
+/* Formulario */
+/* Seccion main */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem; }
+
+.container__contacto {
+  background-image: linear-gradient(360deg, rgba(19, 6, 6, 0.901) 0%, #b6afaf);
+  background-attachment: fixed; }
+
+.form-register {
+  width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+
+.controls {
+  width: 100%;
+  background: #c9caca;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #97a0b4;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white; }
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+.form-register a {
+  color: white;
+  text-decoration: none; }
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline; }
+
+.form-register .botons {
+  width: 100%;
+  background: #771111;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
